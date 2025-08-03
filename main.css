@@ -91,3 +91,14 @@ footer {
   color: white;
   padding: 30px;
 }
+
+.goals{
+  padding: 30px;
+  background-color: gainsboro;
+  text-align: center;
+}
+
+.about{
+  padding: 30px;
+  text-align: center;
+}
