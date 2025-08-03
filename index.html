@@ -17,9 +17,9 @@
     <img src="./images/logo.png" width="300" />
   </div>
   <ul class="navbar-items">
-    <li>About Me</li>
-    <li>Journey</li>
-    <li>Goals</li>
+    <li><a href="#me">About Me</a></li>
+    <li><a href="#journey">Journey</a></li>
+    <li><a href="#goal">Goals</a></li>
   </ul>
 </nav>
   <!-- Hero section -->
@@ -34,13 +34,13 @@
   </a>
 </div>
 <div class="about">
-  <h1 class ="about">About Me</h1>
-  <p>I’m a passionate web developer dedicated to creating engaging and user-friendly websites. From the moment I started coding, I knew I wanted to build digital experiences that people love to use. I thrive on turning creative ideas into functional websites that make a difference.</p>
+  <h1 class ="about" id="me">About Me</h1>
+  <p class="text">I’m a passionate web developer dedicated to creating engaging and user-friendly websites. From the moment I started coding, I knew I wanted to build digital experiences that people love to use. I thrive on turning creative ideas into functional websites that make a difference.</p>
 </div>
 
   <!-- Coding journey section -->
 <div id="coding-journey" class="journey">
-  <h2>Coding Journey</h2>
+  <h2 id="journey">Coding Journey</h2>
 
   <div class="journey-list">
     <div id="intro" class="journey-card">
@@ -79,12 +79,15 @@
   </div>
 </div>
 <div class= "goals">
-<h1>Goals</h1>
-<p>I aspire to mentor and support other aspiring developers, sharing the knowledge and experience I’ve gained along the way. By fostering a collaborative and encouraging environment, I hope to help others achieve their own goals and grow in their careers. Building strong, supportive communities is important to me, as I believe we can achieve more together.</p>
+<h1 id="goal">Goals</h1>
+<p class="text">I aspire to mentor and support other aspiring developers, sharing the knowledge and experience I’ve gained along the way. By fostering a collaborative and encouraging environment, I hope to help others achieve their own goals and grow in their careers. Building strong, supportive communities is important to me, as I believe we can achieve more together.</p>
 </div>
 <!-- Footer section -->
   <footer>
-  <p>Website Made Gad Byiringiro</p>
+  <footer>
+  <p id="footer-text">Website Made With ❤️ From Kigali © <span id="year"></span></p>
+</footer>
+
 </footer>
 
   <script src="./script.js"></script>
